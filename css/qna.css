@@ -1,3 +1,8 @@
 .section .section--qna {
-    display: none;
+    display: none!important;
+}
+.qna__qbox {
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
 }

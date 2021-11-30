@@ -1,22 +1,17 @@
 /* MAIN */
 .section--main {
-    background-color: whitesmoke;
-    max-width: 80%;
-    text-align: center;
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 30px;
-    padding: 80px 30px 40px;
-}
-.section--main .main {
-
+    
 }
 .section--main .main__title {
     font-size: 54px;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
 }
 .section--main .main__img {
     width: 350px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 .section--main .main__description p{
     width: 400px;

@@ -13,8 +13,22 @@ a {
     clear: both;
     display: block;
 }
-.section {
+.container {
     position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    max-width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 60px auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .section .inner {
     max-width: 800px;
