@@ -1,0 +1,18 @@
+body {
+    background-color: pink;
+}
+
+.body__container {
+    font-family: 'Nanum Pen Script', cursive;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}

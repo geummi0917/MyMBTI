@@ -1,0 +1,64 @@
+/* MAIN */
+.section {
+    position: relative;
+}
+.section .inner {
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+.section--main {
+    background-color: whitesmoke;
+    max-width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 80px 30px 40px;
+}
+.section--main .main {
+
+}
+.section--main .main__title {
+    font-size: 54px;
+}
+.section--main .main__img {
+    width: 350px;
+    box-sizing: border-box;
+}
+.section--main .main__description p{
+    width: 400px;
+    font-size: 35px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.btn {
+
+}
+.btn .btn-start {
+    background: #eee linear-gradient(to bottom, #fcfcfc, #eee);
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    padding: 0 12px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    color: #333;
+    margin: 0 auto;
+}
+.btn .btn-start:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(133, 70, 119, 0.08);
+    border-radius: 10px;
+}
