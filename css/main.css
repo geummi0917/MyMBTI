@@ -1,13 +1,4 @@
 /* MAIN */
-.section {
-    position: relative;
-}
-.section .inner {
-    max-width: 800px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    position: relative;
-}
 .section--main {
     background-color: whitesmoke;
     max-width: 80%;
