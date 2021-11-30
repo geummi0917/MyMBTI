@@ -23,10 +23,7 @@
 
     function goNext(qIdx) {
         var q = document.querySelector('.qna__qbox');
-        var qText = document.createElement('h3');
-        q.appendChild(qText);
-        qText.innerHTML = qnaList[qIdx].q;
-        // q.innerHTML = qnaList[qIdx].q;
+        q.innerHTML = qnaList[qIdx].q;
 
         for(let i in qnaList[qIdx].a) {
             addAnswer(qnaList[qIdx].a[i].answer, qIdx);
