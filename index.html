@@ -13,7 +13,7 @@
     <title>십이간지 연애유형</title>
     <!-- sns share -->
 
-    <meta property="og:url" content="" />
+    <meta property="og:url" content="https://geummi0917.github.io/MyMBTI/" />
     <meta property="og:title" content="십이간지 연애유형" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="img/share.png" />
@@ -39,6 +39,11 @@
     <link rel="stylesheet" href="./css/qna.css">
     <link rel="stylesheet" href="./css/result.css">
     <link rel="stylesheet" href="./css/animation.css">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('49198b1782dd1031dea10a59190dbcc4');
+        Kakao.isInitialized();
+    </script>
 </head>
 
 <body>
@@ -95,7 +100,7 @@
                     <div class="result__description"></div>
 
                     <div class="btn">
-                        <a class="kakao btn-share">공유하기</a>
+                        <a class="kakao btn-share" onclick="js:setShare()">공유하기</a>
                     </div>
             
                 </div>
@@ -104,8 +109,9 @@
         </div>
         
     </div>
-    <script src="./js/data.js"></script>
+    <script src="./js/data.js" charset="utf-8"></script>
     <script src="./js/start.js" charset="utf-8"></script>
+    <script src="./js/share.js" charset="utf-8"></script>
 </body>
 
 </html>
